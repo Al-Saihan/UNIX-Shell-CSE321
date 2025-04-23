@@ -404,8 +404,9 @@ int execute_built_in_command()
                 cd_error = 1;
             }
         }
-        return 1;
         status = cd_error;
+        return status;
+
     }
     return 0;
 }
@@ -444,8 +445,7 @@ void print_history()
 
 void handle_sigint(int sig)
 {
-    printf("\nCaught SIGINT (Ctrl+C). Stopping Command Execution. Use 'EXIT' to quit.\n");
-    printf("UNIX Shell > ");
+    printf("\nCaught SIGINT (Ctrl+C). Stopping Command Execution. Use 'EXIT' to quit.");
     fflush(stdout);
 }
 
