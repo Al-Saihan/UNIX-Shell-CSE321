@@ -3,6 +3,8 @@
 **Hello World! Welcome to our UNIX Shell Project!**  
 
 This project was developed as part of **BRACU CSE321 (Operating Systems) Lab**.  
+## **Preview**
+![Preview](Preview-GIF/preview.gif)
 
 ## **Group Members**  
 We are grateful to have had an amazing team:  
